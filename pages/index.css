@@ -162,8 +162,7 @@ body {
 }
 
 .recipes__iframe {
-  height: 480px;
-  width: 273px;
+  border: 0px;
 }
 
 p span {
