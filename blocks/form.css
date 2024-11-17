@@ -9,6 +9,12 @@
   box-sizing: border-box;
   margin: 8px 0 32px;
   border: 1px solid #838383;
+  border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .form__fieldset {
   margin: 0;
@@ -23,7 +29,7 @@
   margin-bottom: 32px;
   background-color: #1878dc;
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -39,14 +45,14 @@
   width: 20px;
   height: 20px;
 }
-.form__label_type_checkbox {
+.form__label_type-checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

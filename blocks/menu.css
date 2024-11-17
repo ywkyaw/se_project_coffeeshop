@@ -4,11 +4,14 @@
   flex-direction: column;
   align-items: center;
   background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu__title {
   margin: 0 0 24px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -18,7 +21,7 @@
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
